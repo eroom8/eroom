@@ -21,12 +21,12 @@ const Hero = () => {
               <h5>
               <Typewriter
               className="mb-4"
-  options={{
-    strings: ['Software Engineer', 'Mobile Developer','Web Developer','ICT Support'],
-    autoStart: true,
-    loop: true,
-  }}
-/>       
+              options={{
+                strings: ['Software Engineer', 'Mobile Developer','Web Developer','ICT Support'],
+                autoStart: true,
+                loop: true,
+              }}
+              /> 
               </h5>
              </div>
               <div className="mt-5">
@@ -35,12 +35,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.9 }}>
                   <a href="#contact" >Hire me</a>
                   
-                </motion.button>
-
-                 
-
-               
-              
+                </motion.button> 
             </div>
             <div className={`${classes.social__links}`}>
 

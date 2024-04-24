@@ -62,7 +62,6 @@ const About = () => {
                   Download CV
                   </a>
               </button>
-
              
             </div>
           </Col>
@@ -77,7 +76,6 @@ const About = () => {
                 >
                   <Image src={img01} alt="about-img" />
                 </div>
-
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >

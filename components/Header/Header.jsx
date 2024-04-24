@@ -23,6 +23,10 @@ const NAV__LINK = [
     display: "Contact",
   },
   {
+    path: "#Portfolio",
+    display: "Portfolio",
+  },
+  {
     path: "#buymecoffee",
     display: <a href=" https://www.buymeacoffee.com/eroom1998l" target="_blank"> 
     <Image alt="buy me coffee" src={buymecoffeeimg}   className=" rounded" height="25" width="110 " /></a>
